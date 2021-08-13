@@ -911,10 +911,14 @@ select {
 .submit-b {
     text-align: center;
     padding: 40px 20px 20px 20px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* padding: 15px 55px; */
 }
 .submit-btn {
-  width: 340px;
+  width: 45%;
   height: 74px;
   letter-spacing: 2px;
   line-height: 26px;
@@ -922,11 +926,20 @@ select {
     /* display: block; */
     /* margin: 4.5rem auto 0; */
     border: 5px solid #0071bc;
-    background-color: #fff;
+    background-color: transparent;
     color: #0071bc;
     font-weight: bold;
-    /* padding: 15px 55px; */
     font-size: 28px;
     font-family: Arial,Helvetica,"ヒラギノ角ゴ Pro W3",'Hiragino Kaku Gothic ProN',Meiryo,'MS PGothic', Sans-serif;
-    background: #fff url(img/right-arrow-blue.svg) no-repeat 0.1% center;
-  }
+    /* background: #fff url(img/right-arrow-blue.svg) no-repeat 0.1% center; */
+}
+/* .submit-b > img {
+  margin-top: -47px;
+  position: absolute;
+  top: 64px;
+  right: 350px;
+  cursor: pointer;
+} */
+.submit-b:hover {
+  opacity: 0.7;
+}
