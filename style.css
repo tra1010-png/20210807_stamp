@@ -816,7 +816,11 @@ img {
 }
 .no09 img {
     display: block;
-    margin: 0 auto;
+    margin-left: -60px;
+}
+.no09-header {
+    /* left:50%; */
+    transform: translateX(35%);
 }
 .alert {
     text-align: center;
